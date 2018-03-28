@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Download Page</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript">
+      function download() {
+        document.getElementById('download').click();
+      }
+    </script>
+  </head>
+  <body>
+    <div id="main">
+      <div id="center">
+        <div id="name">Download Page</div>
+        <button type="button" onclick="download();" name="button">Download</button>
+        <a href="download/file.txt" id="download" download hidden></a>
+      </div>
+    </div>
+  </body>
+</html>
